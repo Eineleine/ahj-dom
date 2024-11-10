@@ -24,5 +24,5 @@ deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name Eineleine
   - git config --global user.email dsa210487@mail.ru
-  - echo "https://$ahj-dom:x-oauth-basic@github.com" > "$HOME/.git-credentials"
+  - echo "https://$ahj_dom:x-oauth-basic@github.com" > "$HOME/.git-credentials"
   - npx push-dir --dir=dist --branch=gh-pages --force --verbose
