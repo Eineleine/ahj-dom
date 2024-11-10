@@ -1,2 +1,2 @@
 test('result test', () => {
-  result = 1;expect(result).toBe(1);});
+  let result = 1;expect(result).toBe(1);});
