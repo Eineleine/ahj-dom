@@ -1,0 +1,1 @@
+.container{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:auto;text-align:center}.field{display:grid;grid-template-columns:repeat(4,1fr);width:500px}.field div{border:1px solid #000;height:125px}
